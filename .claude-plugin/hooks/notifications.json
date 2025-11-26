@@ -1,0 +1,49 @@
+{
+  "description": "PRP Framework notification hooks for Slack integration",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": {
+          "tool": "Write",
+          "input_contains": "PRPs/research/"
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/notify-slack.sh 'Research document created. Review required.'"
+          }
+        ]
+      },
+      {
+        "matcher": {
+          "tool": "Write",
+          "input_contains": "PRPs/",
+          "input_not_contains": ["research/", "reviews/", "templates/"]
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/notify-slack.sh 'PRP created or updated. Review required.'"
+          }
+        ]
+      },
+      {
+        "matcher": {
+          "tool": "Write",
+          "input_contains": "PRPs/reviews/"
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "./scripts/notify-slack.sh 'Code review complete. Review required.'"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "These hooks require SLACK_WEBHOOK_URL environment variable to be set",
+    "Hooks trigger when PRP-related files are created or modified",
+    "To disable, remove this file or unset SLACK_WEBHOOK_URL"
+  ]
+}

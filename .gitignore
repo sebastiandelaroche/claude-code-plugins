@@ -1,0 +1,17 @@
+# Claude Code local settings (personal, not shared)
+.claude/settings.local.json
+
+# Optional: Uncomment to ignore research and reviews
+# PRPs/research/
+# PRPs/reviews/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/

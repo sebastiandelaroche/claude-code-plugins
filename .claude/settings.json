@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ \"$CC_TOOL_INPUT\" == *'PRPs/research/'* ]]; then ./scripts/notify-slack.sh 'Research complete. Review the findings.'; fi"
+          },
+          {
+            "type": "command",
+            "command": "if [[ \"$CC_TOOL_INPUT\" == *'PRPs/'* ]] && [[ \"$CC_TOOL_INPUT\" != *'research/'* ]] && [[ \"$CC_TOOL_INPUT\" != *'reviews/'* ]] && [[ \"$CC_TOOL_INPUT\" != *'templates/'* ]]; then ./scripts/notify-slack.sh 'PRP updated. Review required.'; fi"
+          },
+          {
+            "type": "command",
+            "command": "if [[ \"$CC_TOOL_INPUT\" == *'PRPs/reviews/'* ]]; then ./scripts/notify-slack.sh 'Code review complete.'; fi"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledPlugins": [
+    "prp-framework"
+  ]
+}
