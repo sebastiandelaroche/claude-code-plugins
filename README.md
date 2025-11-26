@@ -15,17 +15,20 @@ A **Product Requirement Prompt** (PRP) is a structured document that provides an
 ## Installation
 
 ```bash
-# Step 1: Install the plugin
-/plugin install github:sebastiandelaroche/prp-agentic
+# Step 1: Add the marketplace
+/plugin marketplace add sebastiandelaroche/prp-agentic
 
-# Step 2: Initialize project structure
+# Step 2: Install the plugin
+/plugin install prp-framework
+
+# Step 3: Initialize project structure
 /prp-init
 ```
 
 This will:
-1. Install all PRP slash commands (`/prp-*`)
-2. Create the folder structure (`PRPs/`, `scripts/`)
-3. Download templates from the repository
+1. Add the PRP marketplace to Claude Code
+2. Install all PRP slash commands (`/prp-*`)
+3. Create the folder structure (`PRPs/`, `scripts/`) and download templates
 
 ## Setup
 

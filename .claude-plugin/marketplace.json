@@ -1,0 +1,14 @@
+{
+  "name": "prp-agentic",
+  "owner": {
+    "name": "Sebastian De La Roche"
+  },
+  "plugins": [
+    {
+      "name": "prp-framework",
+      "source": ".",
+      "description": "Product Requirement Prompts (PRP) workflow for AI-assisted development",
+      "version": "1.0.0"
+    }
+  ]
+}
