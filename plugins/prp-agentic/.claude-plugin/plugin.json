@@ -2,5 +2,7 @@
   "name": "prp-agentic",
   "version": "1.0.0",
   "description": "Product Requirement Prompts (PRP) workflow for AI-assisted development",
-  "author": "Sebastian De La Roche"
+  "author": {
+    "name": "Sebastian De La Roche"
+  }
 }
