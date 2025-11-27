@@ -28,7 +28,7 @@ A **Product Requirement Prompt** (PRP) is a structured document that provides an
 This will:
 1. Add the PRP marketplace to Claude Code
 2. Install all PRP slash commands (`/prp-*`)
-3. Create the folder structure (`PRPs/`, `scripts/`) and download templates
+3. Create the folder structure (`PRPs/`) and download templates
 
 ## Setup
 
@@ -136,10 +136,10 @@ your-project/
 │   ├── research/             # Research outputs
 │   ├── reviews/              # Code review reports
 │   └── feature-a.md          # Your PRPs go here
-├── scripts/
-│   └── notify-slack.sh       # Slack notifications
 └── CLAUDE.md                 # Project context (edit this!)
 ```
+
+> **Note:** Slack notifications are handled automatically by the plugin - no scripts are copied to your project.
 
 ## Features
 
@@ -228,7 +228,6 @@ npm run typecheck  # TypeScript
 
 - [Claude Code](https://claude.ai/code) CLI with slash command support
 - Git (for review commands)
-- curl (for Slack notifications, optional)
 
 ## License
 

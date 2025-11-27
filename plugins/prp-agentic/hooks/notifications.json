@@ -10,7 +10,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./scripts/notify-slack.sh 'Research document created. Review required.'"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/notify-slack.sh 'Research document created. Review required.'"
           }
         ]
       },
@@ -23,7 +23,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./scripts/notify-slack.sh 'PRP created or updated. Review required.'"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/notify-slack.sh 'PRP created or updated. Review required.'"
           }
         ]
       },
@@ -35,7 +35,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "./scripts/notify-slack.sh 'Code review complete. Review required.'"
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/notify-slack.sh 'Code review complete. Review required.'"
           }
         ]
       }

@@ -24,7 +24,6 @@ PRPs/
 ├── templates/
 ├── research/
 └── reviews/
-scripts/
 ```
 
 ### 3. Fetch Template Files
@@ -34,12 +33,6 @@ Download files from the PRP framework repository:
 **PRP Template:**
 ```bash
 curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/claude-code-plugins/main/plugins/prp-agentic/templates/prp-template.md" -o PRPs/templates/prp-template.md
-```
-
-**Slack Notification Script:**
-```bash
-curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/claude-code-plugins/main/plugins/prp-agentic/scripts/notify-slack.sh" -o scripts/notify-slack.sh
-chmod +x scripts/notify-slack.sh
 ```
 
 **CLAUDE.md Template:**
@@ -71,12 +64,11 @@ Created structure:
   ├── templates/prp-template.md
   ├── research/
   └── reviews/
-  scripts/notify-slack.sh
   CLAUDE.md
 
 Next steps:
 1. Edit CLAUDE.md with your project details
-2. (Optional) Configure Slack: export SLACK_WEBHOOK_URL="..."
+2. (Optional) For Slack notifications: export SLACK_WEBHOOK_URL="..."
 3. Start using PRP commands:
    - /prp-research [topic]
    - /prp-create [feature]
@@ -90,4 +82,3 @@ Next steps:
 
 - Always check for existing files before overwriting
 - If curl fails, provide manual instructions
-- Ensure scripts are executable after download

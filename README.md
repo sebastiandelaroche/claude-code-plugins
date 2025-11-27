@@ -12,16 +12,7 @@ A collection of Claude Code plugins for enhanced AI-assisted development.
 
 | Plugin | Install Command | Description |
 |--------|-----------------|-------------|
-| prp-agentic | `/plugin install prp-agentic` | PRP workflow for AI-assisted development |
-
-## After Installing a Plugin
-
-Each plugin may have initialization steps. See the plugin's README for details.
-
-For example, after installing `prp-agentic`:
-```
-/prp-init
-```
+| [prp-agentic](plugins/prp-agentic/) | `/plugin install prp-agentic` | PRP workflow for AI-assisted development |
 
 ## Contributing
 
