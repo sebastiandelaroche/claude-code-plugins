@@ -33,18 +33,18 @@ Download files from the PRP framework repository:
 
 **PRP Template:**
 ```bash
-curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/prp-agentic/main/PRPs/templates/prp-template.md" -o PRPs/templates/prp-template.md
+curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/claude-code-plugins/main/plugins/prp-agentic/templates/prp-template.md" -o PRPs/templates/prp-template.md
 ```
 
 **Slack Notification Script:**
 ```bash
-curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/prp-agentic/main/scripts/notify-slack.sh" -o scripts/notify-slack.sh
+curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/claude-code-plugins/main/plugins/prp-agentic/scripts/notify-slack.sh" -o scripts/notify-slack.sh
 chmod +x scripts/notify-slack.sh
 ```
 
 **CLAUDE.md Template:**
 ```bash
-curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/prp-agentic/main/CLAUDE.md" -o CLAUDE.md
+curl -sL "https://raw.githubusercontent.com/sebastiandelaroche/claude-code-plugins/main/plugins/prp-agentic/templates/CLAUDE.md" -o CLAUDE.md
 ```
 
 ### 4. Create .gitkeep Files
