@@ -9,7 +9,7 @@ argument-hint: [PRP filename]
 
 The user wants to verify:
 
-> **"$ARGUMENTS"**
+**"$ARGUMENTS"**
 
 ## Your Task
 

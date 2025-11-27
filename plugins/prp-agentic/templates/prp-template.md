@@ -1,8 +1,10 @@
 # PRP: [Feature Name]
 
-> **Status:** Draft | Approved | In Progress | Implemented
-> **Created:** [Date]
-> **Author:** [Name]
+| Field | Value |
+|-------|-------|
+| **Status** | Draft *(Draft / Approved / In Progress / Implemented)* |
+| **Created** | [Date] |
+| **Author** | [Name] |
 
 ## Goal
 
@@ -122,7 +124,7 @@
 
 ## Open Questions
 
-> Resolve these before implementation begins
+*Resolve these before implementation begins*
 
 - [ ] [Decision that needs user input]
 - [ ] [Unclear requirement to clarify]

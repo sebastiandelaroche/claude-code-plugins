@@ -9,7 +9,7 @@ argument-hint: [optional: file path, PR number, or 'staged' for staged changes]
 
 The user wants a code review of:
 
-> **"$ARGUMENTS"**
+**"$ARGUMENTS"**
 
 If no argument: review all staged and unstaged changes.
 

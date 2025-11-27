@@ -9,7 +9,7 @@ argument-hint: [topic or question to research]
 
 The user wants to investigate:
 
-> **"$ARGUMENTS"**
+**"$ARGUMENTS"**
 
 ## Your Task
 
@@ -49,8 +49,10 @@ Create `PRPs/research/{topic-slug}.md` with:
 ```markdown
 # Research: [Topic]
 
-> **Created:** [Date]
-> **Author:** [Name]
+| Field | Value |
+|-------|-------|
+| **Created** | [Date] |
+| **Author** | [Name] |
 
 ## Summary
 

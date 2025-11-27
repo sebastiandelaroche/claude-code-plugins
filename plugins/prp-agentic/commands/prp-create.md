@@ -9,7 +9,7 @@ argument-hint: [feature description]
 
 The user wants to implement:
 
-> **"$ARGUMENTS"**
+**"$ARGUMENTS"**
 
 ## Your Task
 
@@ -49,9 +49,11 @@ Generate `PRPs/{feature-slug}.md` using the template structure.
 ```markdown
 # PRP: [Feature Name]
 
-> **Status:** Draft
-> **Created:** [Date]
-> **Author:** [Name]
+| Field | Value |
+|-------|-------|
+| **Status** | Draft *(Draft / Approved / In Progress / Implemented)* |
+| **Created** | [Date] |
+| **Author** | [Name] |
 
 ## Goal
 
@@ -136,7 +138,7 @@ Generate `PRPs/{feature-slug}.md` using the template structure.
 
 ## Open Questions
 
-> Resolve these before implementation begins
+*Resolve these before implementation begins*
 
 - [ ] [Any unresolved decisions - ASK USER]
 

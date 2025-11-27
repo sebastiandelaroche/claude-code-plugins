@@ -9,7 +9,7 @@ argument-hint: [optional: specific test path or PRP reference]
 
 The user wants to validate:
 
-> **"$ARGUMENTS"**
+**"$ARGUMENTS"**
 
 If no argument provided, validate the most recent implementation.
 

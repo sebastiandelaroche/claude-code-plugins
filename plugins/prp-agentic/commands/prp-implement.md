@@ -9,7 +9,7 @@ argument-hint: [PRP filename or path]
 
 The user wants to implement the PRP:
 
-> **"$ARGUMENTS"**
+**"$ARGUMENTS"**
 
 ## Your Task
 
